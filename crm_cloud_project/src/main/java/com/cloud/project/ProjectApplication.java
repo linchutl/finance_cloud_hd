@@ -1,13 +1,13 @@
-package com.cloud.cbn;
+package com.cloud.project;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CbnApplication {
+public class ProjectApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CbnApplication.class, args);
+		SpringApplication.run(ProjectApplication.class, args);
 	}
 
 }

@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="crm_cloud_core:war">
+    <output-path>$PROJECT_DIR$/crm_cloud_core/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>crm_cloud_core</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="core-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="crm_cloud_core:war exploded" />
+    </root>
+  </artifact>
+</component>

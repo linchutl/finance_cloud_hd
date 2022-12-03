@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="finance_cloud_hd" />
+        <module name="crm_cloud_core" />
+        <module name="crm_cloud_project" />
+        <module name="crm_cloud_query" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="crm_cloud_core" target="8" />
+      <module name="crm_cloud_project" target="8" />
+      <module name="crm_cloud_query" target="8" />
+      <module name="finance_cloud_hd" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="crm_cloud_core" options="-parameters" />
+      <module name="crm_cloud_project" options="-parameters" />
+      <module name="crm_cloud_query" options="-parameters" />
+    </option>
+  </component>
+</project>
